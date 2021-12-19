@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.google{
+    position:relative;
+    width: 600px;
+    top: 150px;
+}
+
+
+.inp-container{
+     margin-left: 30%;
+     margin-right: 30%;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 5vh;
+    background-color:whitesmoke;
+    
+
+}
+#search-bar{
+    width: 10px;;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 32px;
+    outline:none;
+    border: 1px solid grey;
+}
+  .button{
+        position: relative;
+        top: 100px;
+        text-align: center;
+      }
+      input[type="button"]{
+        background: #ebe8e8;
+        border: none;
+        padding: 8px 20px;
+        margin: 10px;
+        color: gray;
+        border-radius: 5px;
+        outline: none;
+      }
+    }
+}
